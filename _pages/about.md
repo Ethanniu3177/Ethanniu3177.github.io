@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: Home
 permalink: /
 subtitle: AKA Cowshield
 
@@ -23,8 +23,23 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-Hello! How are you doing? Welcome to my humble abode. 
+
+## About Me {#about}
+
+Hello! How are you doing? Welcome to my humble abode.
 
 My name is Ethan Niu and I am an applied physicist turned computer scientist, currently studying for my Master's of Science at the University of Southern California.
 
 With background in both hardware and software, my passion lies in robotics and computer vision. I'm excited to continue learning and exploring this field of engineering!
+
+## Skills & Experience {#cv}
+
+Blank
+
+## Projects {#projects}
+
+{% include projects.liquid %}
+
+## Side Quests {#hobbies}
+
+Tricking, wushu, blah blah blah

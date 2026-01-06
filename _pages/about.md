@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-## About {#about}
+## About Me {#about}
 
 Hello! How are you doing? Welcome to my humble abode.
 

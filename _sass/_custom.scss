@@ -1,0 +1,15 @@
+.timeline-img {
+  max-width: 700px;   // change this to resize
+  width: 100%;
+  display: block;
+  margin: 1rem auto;
+  transition: opacity 0.25s ease-in-out;
+}
+
+/* default: show light version */
+.timeline-dark { display: none; }
+.timeline-light { display: block; }
+
+/* when dark theme is active */
+html[data-theme="dark"] .timeline-light { display: none; }
+html[data-theme="dark"] .timeline-dark  { display: block; }

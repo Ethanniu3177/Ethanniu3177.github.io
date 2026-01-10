@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 1 # leave blank to include all the news in the `_news` folder
 
@@ -32,13 +32,27 @@ My name is Ethan Niu and I am an applied physicist turned computer scientist, cu
 
 With background in both hardware and software, my passion lies in robotics and computer vision. I'm excited to continue learning and exploring this field of engineering!
 
-## Skills & Experience {#cv}
+<div style="height: 4rem;"></div>
 
-Blank
+## Skills & Experience {#skills}
+
+{% include figure.liquid
+  path="assets/img/timeline-light.svg"
+  class="timeline-img timeline-light"
+  alt="Experience timeline (light)"
+%}
+
+{% include figure.liquid
+  path="assets/img/timeline-dark.svg"
+  class="timeline-img timeline-dark"
+  alt="Experience timeline (dark)"
+%}
 
 ## Projects {#projects}
 
 {% include projects.liquid %}
+
+<div style="height: 2rem;"></div>
 
 ## Side Quests {#hobbies}
 
